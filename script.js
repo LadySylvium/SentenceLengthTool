@@ -6,25 +6,19 @@ function highlight() {
     var html = '';
     myParagraphs.forEach(function(myParagraph) {
         myParagraph = myParagraph.trim();
-        var sentences = myParagraph.split('\.');
+        var sentences = myParagraph.match(/[^\.!\?]+[\.!\?]+["']?|.+$/g);
+        if (sentences != null) {
         sentences.forEach(function(sentence) {
             sentence = sentence.trim();
             if (!sentence) {
                 return;
             }
-            var className = 'longest';
+            var className = 'c-';
             var count = sentence.split(" ").length;
-            if (count < 10) {
-                className = 'shortest';
-            } else if (count < 20) {
-                className = 'short';
-            } else if (count < 30) {
-                className = 'medium';           
-            } else if (count < 45) {
-                className = 'long';
-            }
-            html += '<span class="'+className+'">'+sentence+'. </span>';
+            className += count;
+            html += '<span class="'+className+'">'+sentence+' </span>';
             });
+        }
         html += '<br>';
     });
 
