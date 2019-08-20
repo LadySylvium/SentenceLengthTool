@@ -1,25 +1,48 @@
+html {
+    background-color: #eee;
+}
+
+body {
+    margin: 2% auto;
+    width: 96%;
+}
+
 #textarea {
     -moz-appearance: textfield-multiline;
     -webkit-appearance: textarea;
+    background-color: white;
     border: 2px solid #333;
     font: medium -moz-fixed;
     font: -webkit-small-control;
-    height: 6rem;
-    max-height: 6rem;
+    height: 9rem;
     overflow: auto;
     padding: 0px;
-    width: 100%;
-    max-width: 100%;
+    margin-bottom: 10px;
   }
+
+p, h1 {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5rem;
+    margin-bottom: 3px;
+}
+
+h1 {
+    padding: 10px 0;
+}
   
 #output {
     font-family: Arial;
     line-height: 2rem;
-    margin: 10px;
+    padding: 15px;
+}
+
+span {
+    padding: 4px 2px;
 }
 
 #output span {
-    padding: 4px 2px;
     margin-right: 6px;
 }
 
@@ -118,101 +141,3 @@
 span {   
     background-color: rgba(240, 0, 240, 0.44);
 }
-
-
-/* #output .one {
-    background-color: rgba(250, 0, 0, 0.44);
-}
-#output .two {
-    background-color: rgba(250, 50, 0, 0.44);
-}
-#output .three {
-    background-color: rgba(250, 100, 0, 0.44);
-}
-#output .four {
-    background-color: rgba(250, 150, 0, 0.44);
-}
-#output .five {
-    background-color: rgba(250, 200, 0, 0.44);
-}
-#output .six {
-    background-color: rgba(250, 250, 0, 0.44);
-}
-#output .seven {
-    background-color: rgba(200, 250, 0, 0.44);
-}
-#output .eight {
-    background-color: rgba(150, 250, 0, 0.44);
-}
-#output .nine {
-    background-color: rgba(100, 250, 0, 0.44);
-}
-#output .ten {
-    background-color: rgba(50, 250, 0, 0.44);
-}
-
-#output .eleven {
-    background-color: rgba(0, 250, 0, 0.44);
-}
-#output .twelve {
-    background-color: rgba(0, 250, 250, 0.44);
-}
-#output .thirteen {
-    background-color: rgba(0, 200, 250, 0.44);
-}
-#output .fourteen {
-    background-color: rgba(0, 150, 250, 0.44);
-}
-#output .fifteen {
-    background-color: rgba(0, 100, 250, 0.44);
-}
-#output .sixteen {
-    background-color: rgba(0, 50, 250, 0.44);
-}
-#output .seventeen {
-    background-color: rgba(0, 0, 250, 0.44);
-}
-#output .eighteen {
-    background-color: rgba(50, 0, 250, 0.44);
-}
-#output .nineteen {
-    background-color: rgba(100, 0, 250, 0.44);
-}
-#output .twenty {
-    background-color: rgba(150, 0, 250, 0.44);
-}
-
-#output .twentyone {
-    background-color: rgba(200, 0, 250, 0.44);
-}
-#output .twentytwo {
-    background-color: rgba(250, 0, 250, 0.44);
-}
-#output .twentythree {
-    background-color: rgba(250, 0, 200, 0.44);
-}
-#output .twentyfour {
-    background-color: rgba(250, 0, 150, 0.44);
-}
-#output .twentyfive {
-    background-color: rgba(250, 0, 100, 0.44);
-}
-#output .twentysix {
-    background-color: rgba(250, 0, 50, 0.44);
-}
-#output .twentyseven {
-    background-color: rgba(250, 0, 0, 0.44);
-}
-#output .twentyeight {
-    background-color: rgba(250, 50, 0, 0.44);
-}
-#output .twentynine {
-    background-color: rgba(250, 100, 0, 0.44);
-}
-#output .thirty {
-    background-color: rgba(250, 150, 0, 0.44);
-}
-
-#output .longest {
-    background-color: rgba(250, 200, 0, 0.44);
-} */
