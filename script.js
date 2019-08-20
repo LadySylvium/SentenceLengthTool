@@ -6,7 +6,7 @@ function highlight() {
     var html = '';
     myParagraphs.forEach(function(myParagraph) {
         myParagraph = myParagraph.trim();
-        var sentences = myParagraph.match(/[^\.!\?]+[\.!\?]+["']?|.+$/g);
+        var sentences = myParagraph.match(/[^\.!\?]+[\.!\?]+["'”’]?|.+$/g);
         if (sentences != null) {
         sentences.forEach(function(sentence) {
             sentence = sentence.trim();
