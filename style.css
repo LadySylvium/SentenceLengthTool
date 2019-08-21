@@ -44,93 +44,87 @@ span {
 
 #output span {
     margin-right: 6px;
+    background-color: rgba(0, 225, 225, 0.4);
 }
 
 #output .c-1, #output .c-2, #output .c-3 {
-    background-color: rgba(245, 0, 0, 0.4);
+    background-color: rgba(225, 0, 0, 0.4);
 }
 #output .c-4 {
-    background-color: rgba(245, 35, 0, 0.4);
+    background-color: rgba(225, 25, 0, 0.4);
 }
 #output .c-5 {
-    background-color: rgba(245, 70, 0, 0.4);
+    background-color: rgba(255, 50, 0, 0.4);
 }
 #output .c-6 {
-    background-color: rgba(245, 105, 0, 0.4);
+    background-color: rgba(225, 75, 0, 0.4);
 }
 #output .c-7 {
-    background-color: rgba(245, 140, 0, 0.4);
+    background-color: rgba(225, 100, 0, 0.4);
 }
 #output .c-8 {
-    background-color: rgba(245, 175, 0, 0.4);
+    background-color: rgba(225, 125, 0, 0.4);
 }
 #output .c-9 {
-    background-color: rgba(245, 210, 0, 0.4);
+    background-color: rgba(225, 150, 0, 0.4);
 }
 #output .c-10 {
-    background-color: rgba(245, 245, 0, 0.4);
+    background-color: rgba(225, 175, 0, 0.4);
 }
 #output .c-11 {
-    background-color: rgba(210, 245, 0, 0.4);
+    background-color: rgba(225, 200, 0, 0.4);
 }
 #output .c-12 {
-    background-color: rgba(175, 245, 0, 0.4);
+    background-color: rgba(225, 225, 0, 0.4);
 }
 #output .c-13 {
-    background-color: rgba(140, 245, 0, 0.4);
+    background-color: rgba(200, 225, 0, 0.4);
 }
 #output .c-14 {
-    background-color: rgba(105, 245, 0, 0.4);
+    background-color: rgba(175, 225, 0, 0.4);
 }
 #output .c-15 {
-    background-color: rgba(70, 245, 0, 0.4);
+    background-color: rgba(150, 225, 0, 0.4);
 }
 #output .c-16 {
-    background-color: rgba(35, 245, 0, 0.4);
+    background-color: rgba(125, 225, 0, 0.4);
 }
 #output .c-17 {
-    background-color: rgba(0, 245, 0, 0.4);
+    background-color: rgba(100, 225, 0, 0.4);
 }
 #output .c-18 {
-    background-color: rgba(0, 245, 35, 0.4);
+    background-color: rgba(75, 225, 0, 0.4);
 }
 #output .c-19 {
-    background-color: rgba(0, 245, 70, 0.4);
+    background-color: rgba(50, 225, 0, 0.4);
 }
 #output .c-20 {
-    background-color: rgba(0, 245, 105, 0.4);
+    background-color: rgba(25, 225, 0, 0.4);
 }
 #output .c-21 {
-    background-color: rgba(0, 245, 140, 0.4);
+    background-color: rgba(0, 225, 0, 0.4);
 }
 #output .c-22 {
-    background-color: rgba(0, 245, 275, 0.4);
+    background-color: rgba(0, 225, 25, 0.4);
 }
 #output .c-23 {
-    background-color: rgba(0, 245, 210, 0.4);
+    background-color: rgba(0, 225, 50, 0.4);
 }
 #output .c-24 {
-    background-color: rgba(0, 245, 245, 0.4);
+    background-color: rgba(0, 225, 75, 0.4);
 }
 #output .c-25 {
-    background-color: rgba(0, 210, 245, 0.4);
+    background-color: rgba(0, 225, 100, 0.4);
 }
 #output .c-26 {
-    background-color: rgba(0, 175, 245, 0.4);
+    background-color: rgba(0, 225, 125, 0.4);
 }
 #output .c-27 {
-    background-color: rgba(0, 140, 245, 0.4);
+    background-color: rgba(0, 225, 150, 0.4);
 }
 #output .c-28 {
-    background-color: rgba(0, 105, 245, 0.4);
+    background-color: rgba(0, 225, 175, 0.4);
 }
 #output .c-29 {
-    background-color: rgba(0, 70, 245, 0.4);
-}
-#output .c-30 {
-    background-color: rgba(0, 35, 245, 0.4);
-}
-
-#output span {   
-    background-color: rgba(0, 0, 245, .4);
+    background-color: rgba(0, 225, 200, 0.4);
 }
